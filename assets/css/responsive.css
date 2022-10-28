@@ -1,0 +1,105 @@
+/* Tablet and Mobile */
+@media (max-width: 1024px) {
+    .btn{
+        padding: 15px 16px;
+        width: 100%;
+    }
+    #nav .subnav a{
+        padding: 5px 16px;  
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    #contact .contact-info{
+        line-height: 2;
+    }
+}
+    #footer .social-list{
+        font-size: 48px;
+        
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    
+/* Tablet */
+@media (min-width : 740px)and(max-width: 1023px){
+    
+}
+/* Mobile */
+@media (max-width: 739px){
+    
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+        position: absolute; 
+        top: 0;
+        right: 0; 
+    }
+    /* #nav{
+        display: block;
+        
+    } */
+    
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        padding: 1 24px;
+
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #fff;
+        
+    }
+    #nav > li:hover > a,
+    #nav .subnav li:hover a{
+    
+    color: #000;
+    background-color: #ccc;
+}
+    #nav .subnav a{
+       padding:5px 41px;
+        
+    }
+    /* điều chỉnh để thẻ a, li, ul thành display block */
+    #header .search-btn{
+        display: none;
+    }
+    
+    .member-list .member-item-mobile{
+        /* add property */
+        display: block;
+        width: 100%;
+
+    }
+    .member-item-mobile .member-name{
+        margin-top: 16px;
+  
+    }
+    #content .member-img{
+        margin-bottom: 15px;
+        width: 60%;
+  
+    }
+
+  
+}
+
+
